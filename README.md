@@ -1,3 +1,17 @@
+About this fork
+===========
+This is a fork of [HazAT/badge](https://github.com/HazAT/badge) that includes the patch proposed in [PR #70](https://github.com/HazAT/badge/pull/70) to remove the `curb` dependency.
+
+## Installation
+```
+curl https://codeload.github.com/ReseauEntourage/badge/tar.gz/master | tar xz
+pushd badge-master/
+gem build badge.gemspec
+gem install badge-0.9.1.gem
+popd
+rm -r badge-master/
+```
+
 badge - add a badge to your tvOS/iOS/Android app icon
 ============
 
